@@ -1,7 +1,15 @@
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/sections/Home";
+
 function App() {
   return (
     <div>
-      Hello World!
+      <div className="left">
+        <Navbar />
+      </div>
+      <div className="right">
+        <Home />
+      </div>
     </div>
   );
 }
